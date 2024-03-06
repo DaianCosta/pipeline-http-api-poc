@@ -265,20 +265,5 @@ __pycache__/
 
 .env
 /obj
-/src/Document.Template.Generator.Api/obj
-/src/Document.Template.Generator.Api/bin
-/src/Document.Template.Generator.Core/bin
-/src/Document.Template.Generator.Core/obj
-/src/Document.Template.Generator.Service/bin
-/src/Document.Template.Generator.Service/obj
-/test/Document.Template.Generator.Test/bin
-/test/Document.Template.Generator.Test/obj
 /.vs
-/test/Document.Template.Generator.Test/coverage.xml
-/test/Document.Template.Generator.Test/coverageReport
-/src/Document.Template.Generator.Api/Properties/launchSettings.json
-/src/Document.Generator.Test/coverageReport
-/src/Document.Generator.Test/coverage.xml
-/src/Document.Generator.Api/Properties/launchSettings.json
-/src/Document.Generator.Service/Properties/launchSettings.json
-/src/Document.Generator.Worker/Properties/launchSettings.json
+/bin

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\su\\estudo\\pipe-http-dotnet\\PipeHttp.Api\\PipeHttp.Api.csproj": {}
+    "C:\\su\\estudo\\pipe-http-dotnet\\PipeHttp.Api\\PipeHttp.Api.csproj": {}
   },
   "projects": {
-    "c:\\su\\estudo\\pipe-http-dotnet\\PipeHttp.Api\\PipeHttp.Api.csproj": {
+    "C:\\su\\estudo\\pipe-http-dotnet\\PipeHttp.Api\\PipeHttp.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\su\\estudo\\pipe-http-dotnet\\PipeHttp.Api\\PipeHttp.Api.csproj",
+        "projectUniqueName": "C:\\su\\estudo\\pipe-http-dotnet\\PipeHttp.Api\\PipeHttp.Api.csproj",
         "projectName": "PipeHttp.Api",
-        "projectPath": "c:\\su\\estudo\\pipe-http-dotnet\\PipeHttp.Api\\PipeHttp.Api.csproj",
+        "projectPath": "C:\\su\\estudo\\pipe-http-dotnet\\PipeHttp.Api\\PipeHttp.Api.csproj",
         "packagesPath": "C:\\Users\\daian.costa\\.nuget\\packages\\",
-        "outputPath": "c:\\su\\estudo\\pipe-http-dotnet\\PipeHttp.Api\\obj\\",
+        "outputPath": "C:\\su\\estudo\\pipe-http-dotnet\\PipeHttp.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

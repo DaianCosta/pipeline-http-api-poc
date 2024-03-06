@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A4J+pkJP4tMOlokA7kWyyl7vP6zFgHzSMAA58EUhQnnn4ZwhRhz9nLufdh0jdQBculVRnOZGslQ/tqSxgO+70g==",
+  "dgSpecHash": "AFwdSF/Df2VreEX3aFNRH1doGWGpFuj38NcLZTzCM6jC19IZ11eKJexvC7/H5q8JBBRBek/U/eJh0Q+mqx1M3Q==",
   "success": true,
-  "projectFilePath": "c:\\su\\estudo\\pipe-http-dotnet\\PipeHttp.Api\\PipeHttp.Api.csproj",
+  "projectFilePath": "C:\\su\\estudo\\pipe-http-dotnet\\PipeHttp.Api\\PipeHttp.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\daian.costa\\.nuget\\packages\\jsonata.net.native\\2.6.1\\jsonata.net.native.2.6.1.nupkg.sha512",
     "C:\\Users\\daian.costa\\.nuget\\packages\\jsonata.net.native.jsonnet\\2.6.1\\jsonata.net.native.jsonnet.2.6.1.nupkg.sha512",
