@@ -267,3 +267,5 @@ __pycache__/
 /obj
 /.vs
 /bin
+/PipeHttp.Api/bin
+/PipeHttp.Api/obj
