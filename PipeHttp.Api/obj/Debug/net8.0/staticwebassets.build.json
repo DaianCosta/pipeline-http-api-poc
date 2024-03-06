@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "onVDNOAkjwTDCpEg1Oj5s+gqCmmhiFbzRZj82n4Z71I=",
+  "Source": "PipeHttp.Api",
+  "BasePath": "_content/PipeHttp.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

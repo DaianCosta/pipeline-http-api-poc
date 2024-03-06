@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PipeHttp.Api.props" />
+</Project>

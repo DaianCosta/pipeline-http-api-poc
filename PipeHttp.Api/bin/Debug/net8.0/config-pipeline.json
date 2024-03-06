@@ -1,0 +1,66 @@
+[
+  {
+    "config": {
+      "sequential": false
+    },
+    "backends": [
+      {
+        "method": "POST",
+        "url": "http://localhost:8080/nurotech/auth",
+        "body": "{\"login\": \"user_too\",\"password\": \"#$sdfsdf\"}",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "cached":"86000"
+      },
+      {
+        "method": "GET",
+        "url": "http://localhost:8080/shop",
+        "headers": {
+          "Authorization": "Bearer {resp0_access_id}"
+        },
+        "inputTransformation": [
+          {
+            "insurance.document": "key"
+          }
+        ],
+        "outputTransformation": [
+          {
+            "data.person.birthdate": "items.0.item.birthdate"
+          }
+        ]
+      },
+      {
+        "method": "GET",
+        "url": "http://localhost:8080/sequential",
+        "body": "{\"key\": \"value\"}",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      }
+    ]
+  },
+  {
+    "config": {
+      "sequential": true
+    },
+    "backends": [
+      {
+        "method": "GET",
+        "url": "http://localhost:8080/shop"
+      },
+      {
+        "method": "GET",
+        "url": "http://localhost:8080/sequential"
+      },
+      {
+        "method": "GET",
+        "url": "http://localhost:8080/git/daiancosta"
+      },
+      {
+        "method": "GET",
+        "url": "http://localhost:8080/market/cached"
+      }
+    ]
+  }
+]

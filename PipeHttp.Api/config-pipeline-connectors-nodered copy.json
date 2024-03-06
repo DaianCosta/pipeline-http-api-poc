@@ -1,0 +1,52 @@
+[
+    {
+        "step": 1,
+        "backends": [
+            {
+                "order": 0,
+                "conectores": [
+                    {
+                        "conector": "NODE_RED",
+                        "entrypoint": "schevalidator"
+                    }
+                ]
+            },
+            {
+                "order": 1,
+                "conectores": [
+                    {
+                        "conector": "BUREAU_SERVICE",
+                        "codeBureau": "ELEBIGILITY-TABLE",
+                        "entrypointInputTransformation": "/transformation-input-bureau-XPTO-470",
+                        "entrypointOutputTransformation": "/transformation-output-bureau-XPTO-470"
+                    },
+                    {
+                        "conector": "BUREAU_SERVICE",
+                        "codeBureau": "ELEBIGILITY-TABLE",
+                        "entrypointInputTransformation": "/transformation-input-bureau-XPTO-470",
+                        "entrypointOutputTransformation": "/transformation-output-bureau-XPTO-470"
+                    }
+                ]
+            },
+            {
+                "order": 2,
+                "conectores": [
+                    {
+                        "conector": "NODE_RED",
+                        "entrypoint": "underwriting-470"
+                    }
+                ]
+            },
+            {
+                "order": 3,
+                "conectores": [
+                    {
+                        "conector": "NEUROTEC",
+                        "entrypointInputTransformation": "/transformation-neurotech",
+                        "entrypointOutputTransformation": "/transformation-neurotech-XPTO-470"
+                    }
+                ]
+            }
+        ]
+    }
+]
