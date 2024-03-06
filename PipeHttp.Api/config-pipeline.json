@@ -5,8 +5,8 @@
     },
     "backends": [
       {
-        "method": "POST",
-        "url": "http://localhost:8080/nurotech/auth",
+        "method": "GET",
+        "url": "https://api.github.com/users/daiancosta",
         "body": "{\"login\": \"user_too\",\"password\": \"#$sdfsdf\"}",
         "headers": {
           "Content-Type": "application/json"
@@ -15,7 +15,7 @@
       },
       {
         "method": "GET",
-        "url": "http://localhost:8080/shop",
+        "url": "https://api.github.com/users/daiancosta/users/{user}/repos",
         "headers": {
           "Authorization": "Bearer {resp0_access_id}"
         },
@@ -32,7 +32,7 @@
       },
       {
         "method": "GET",
-        "url": "http://localhost:8080/sequential",
+        "url": "https://api.github.com/users/daiancosta",
         "body": "{\"key\": \"value\"}",
         "headers": {
           "Content-Type": "application/json"
@@ -47,19 +47,19 @@
     "backends": [
       {
         "method": "GET",
-        "url": "http://localhost:8080/shop"
+        "url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency={currency}&ids=bitcoin%2Cethereum&order=market_cap_desc&per_page=100&page=1&sparkline=false"
       },
       {
         "method": "GET",
-        "url": "http://localhost:8080/sequential"
+        "url": "https://api.coingecko.com/api/v3/global"
       },
       {
         "method": "GET",
-        "url": "http://localhost:8080/git/daiancosta"
+        "url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=eur&ids=bitcoin%2Cethereum&order=market_cap_desc&per_page=100&page=1&sparkline=false"
       },
       {
         "method": "GET",
-        "url": "http://localhost:8080/market/cached"
+        "url": "https://swapi-graphql.netlify.app//.netlify/functions/index"
       }
     ]
   }
